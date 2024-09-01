@@ -4,25 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALT School Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff6f61, #6b5b95); /* Gradient with two distinct colors */
+            color: #333;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+            border-radius: 4px;
+        }
+
+        h1 {
+            color: #007bff;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        table caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
+
+    <nav>
+        <a href="index.html">About Me</a> | 
+        <a href="form.html">Application Form</a> |
+        <a href="media.html">Media</a> |
+        <a href="table.html">Courses</a>
+    </nav>
+
     <h1>ALT School Africa - Courses and Schools</h1>
-    <table border="1">
+
+    <table>
+        <caption>Course Offerings by School</caption>
         <thead>
             <tr>
                 <th>School</th>
-                <th>Courses</th>
+                <th>Course 1</th>
+                <th>Course 2</th>
+                <th>Course 3</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>SOE (School of Engineering)</td>
+                <td>School of Engineering</td>
                 <td>Frontend Engineering</td>
                 <td>Backend Engineering</td>
                 <td>Cloud Engineering</td>
             </tr>
             <tr>
-                <td>SOD (School of Product)</td>
+                <td>School of Product</td>
                 <td>Product Design</td>
                 <td>Marketing</td>
                 <td>Management</td>
@@ -35,5 +113,6 @@
             </tr>
         </tbody>
     </table>
+
 </body>
 </html>
