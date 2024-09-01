@@ -4,17 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+            text-align: center; /* Center text for entire body */
+        }
+
+        nav {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+            border-radius: 4px;
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto; /* Center the section */
+            background: white; /* White background for readability */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        picture {
+            display: block;
+            margin: 20px auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        iframe, video, audio {
+            display: block;
+            max-width: 100%;
+            margin: 20px auto;
+            border: 0;
+        }
+
+        iframe {
+            border-radius: 8px;
+        }
+
+        video {
+            border-radius: 8px;
+        }
+
+        audio {
+            margin: 20px auto;
+        }
+
+        p {
+            margin: 0 0 10px 0; /* Adjust margin for paragraphs */
+        }
+    </style>
 </head>
 <body>
 
+    <nav>
+        <a href="index.html">About Me</a> | 
+        <a href="form.html">Application Form</a> |
+        <a href="media.html">Media</a> |
+        <a href="table.html">Courses</a>
+    </nav>
+
     <h1>About Me</h1>
 
-    <p>Hello! My name is Osejindu. I am passionate about Football, coding and Kpop. Here's a picture of me:</p>
+    <p>Hello! My name is Osejindu. I am passionate about Football, coding, and Kpop. Here's a picture of me:</p>
 
     <picture>
         <source srcset="your-image.jpg" media="(max-width: 600px)">
         <source srcset="your-image.jpg" media="(max-width: 1000px)">
-        <img src="IMG_7549.jpg" width="300px"  alt="Osejindu Morsindi">
+        <img src="IMG_7549.jpg" width="300" alt="Osejindu Morsindi">
     </picture>
 
     <p>This image adapts to different screen sizes, ensuring a responsive design on mobile, tablet, and laptop devices.</p>
